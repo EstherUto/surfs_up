@@ -27,3 +27,17 @@ Three key things to note are:
 - It is very important for the client to be aware that although the mean temperature across the year seems to be the same, Oahu in December still has temperatures as cold as 56°F and should make note of slow business during times like that.
 
 ## Summary
+To gather more weather data, additional queries can be performed such as analyzing the most recent data for both months (i.e. December 2016 and June 2017) which can be done by using the following code:
+```
+June_results = session.query(Measurement.tobs).\
+    filter(Measurement.date == '2017-06-01').\
+    filter(Measurement.date <= '2017-06-30').\
+    order_by(Measurement.date).all()
+```
+```
+December_results = session.query(Measurement.tobs).\
+    filter(Measurement.date == '2016-12-01').\
+    filter(Measurement.date <= '2016-12-31').\
+    order_by(Measurement.date).all()
+```
+Performing this would help see the most recent trends in tempearature for both months.
