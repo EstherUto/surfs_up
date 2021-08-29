@@ -1,6 +1,9 @@
 # Surfs Up
 
 ## Table of Contents
+- [Overview of Analysis](#overview-of-analysis)
+- [Results](#results)
+- [Summary](#summary)
 
 ## Overview of Analysis
 The purpose of this analysis was to analyze the island Oahu's weather data so that the client would understand how weather might have an effect a potential surf shop business. The client has mentioned they had once attempted to open a business in Hawaii but lack of understanding the weather and it's effect on the number of customers led to the business failing.
