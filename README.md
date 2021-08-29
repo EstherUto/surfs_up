@@ -40,4 +40,12 @@ December_results = session.query(Measurement.tobs).\
     filter(Measurement.date <= '2016-12-31').\
     order_by(Measurement.date).all()
 ```
-Performing this would help see the most recent trends in tempearature for both months.
+Performing this would help see the most recent trends in temperature for both months. 
+
+**_FIGURE 3. June 2017 Statistics_**
+<img width="171" alt="June_2017_Statistics" src="https://user-images.githubusercontent.com/86085601/131268017-8b3048e1-fe88-4e73-b78a-789445414433.png">
+
+**_FIGURE 4. December 2016 Statistics_**
+<img width="205" alt="December_2016_Statistics" src="https://user-images.githubusercontent.com/86085601/131268021-77633cfb-19cd-445a-a357-6129f25f08ca.png">
+
+The resulting statistics show that although the summer month being hotter on average and the winter months having relatively the same temperature on average. It is important to note that based on the winter of 2016, Oahu might be getting slightly cooler as the max winter temp overall was recorded at 83°F while the hottest temperature recorded in 2016 was 78°F.
