@@ -11,9 +11,11 @@ A preliminary analysis was done by checking the past years weather at June and a
 The summary statistics of the June and December temperatures at Oahu is shown in the following figures.
 
 **_FIGURE 1. June Statistics_**
+
 <img width="142" alt="June_Temperature_Statistics" src="https://user-images.githubusercontent.com/86085601/131259826-c2ed936b-a063-4fe6-b213-b27b85dd036b.png">
 
 **_FIGURE 2. December Statistics_**
+
 <img width="170" alt="December_Temperature_Statistics" src="https://user-images.githubusercontent.com/86085601/131259830-218ac918-fbc8-4360-9d2b-9cf9f060992a.png">
 
 The stats show that there isn't too much of a difference in mean temperatures in summer and/or winter months. This was expected as the island has been known to be tropical and majority of tropical locations tend to have relatively consistent weather the whole year. It is very important for the client to be aware that December still has weather as cold as 56°F and should make note of slow business during times like that.
